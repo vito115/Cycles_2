@@ -9,8 +9,10 @@ public class Main {
         while (total < 2_459_000) {
             total = total + salary;
             i++;
+            System.out.println("Месяц " + i + " , сумма накоплений равна " + total + " рублей");
+
         }
-        System.out.println("Месяц " + i + " , сумма накоплений равна " + total + " рублей");
+        System.out.println("За " + i + " месяца , сумма накоплений составила " + total + " рублей");
 
         System.out.println("Задача 2");
 
@@ -47,6 +49,7 @@ public class Main {
 
             System.out.println("Месяц " + month + " сумма накоплений - " + cashTotal);
         }
+        System.out.println("Понадобилось " + month + " месяцев.");
 
         System.out.println("Задача 5");
 
